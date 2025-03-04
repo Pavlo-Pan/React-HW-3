@@ -1,0 +1,16 @@
+div {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
