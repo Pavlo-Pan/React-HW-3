@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import people from "./people";
 import './List.module.css'
 const List = () => {
     const [listPeople, setPeople] = useState(people);
 
     const removePerson = (id) => {
-        setPeople(listPeople.filter((person) => person.id !== id));
+        setPeople(prevPeople => prevPeople.filter(person => person.id !== id));
     };
     return (
         <div>

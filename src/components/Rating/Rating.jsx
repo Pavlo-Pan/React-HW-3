@@ -1,9 +1,9 @@
 import './Rating.module.css'
-import React, { useState } from "react";
+import { useState } from "react";
 import ratingList from './ratingList';
+import labels from './labels';
 function Rating() {
     const [ratingValue, setRatingValue] = useState(0);
-    const labels = ["Плохо", "Приемлемо", "Хорошо", "Отлично"];
 
     return (
         <div>
